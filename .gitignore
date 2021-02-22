@@ -1,0 +1,23 @@
+# Elixir
+
+_build
+cover
+deps
+doc
+.fetch
+erl_crash.dump
+*.ez
+*.beam
+*.secret.exs
+.elixir_ls/
+# Ignore package tarball (built via "mix hex.build").
+rocketpay-*.tar
+priv/static/
+
+
+# Node
+node_modules
+build
+.env
+yarn-debug.log*
+yarn-error.log*
