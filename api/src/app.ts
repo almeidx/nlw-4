@@ -1,5 +1,6 @@
 import 'reflect-metadata';
 import './database';
+import 'dotenv/config';
 
 import express from 'express';
 
