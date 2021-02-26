@@ -15,7 +15,7 @@ defmodule RocketpayWeb.ChannelCase do
   this option is not recommended for other databases.
   """
 
-  use ExUnit.CaseTemplate
+  use ExUnit.CaseTemplate, async: true
 
   using do
     quote do
